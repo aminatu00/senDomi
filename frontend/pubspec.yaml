@@ -1,0 +1,58 @@
+name: untitledvoir
+description: "A new Flutter project."
+publish_to: 'none'  # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: "^3.7.0"  # Contrainte pour Dart SDK, ici la version minimum est 3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.13.1
+  firebase_auth: ^5.5.4
+  cloud_firestore: ^5.6.8
+  firebase_storage: ^12.4.6
+  image_picker: ^1.1.2
+  file_picker: ^10.1.9
+  http: ^1.4.0
+  url_launcher: ^6.3.1
+  vector_math: 2.1.4
+  paydunya: ^1.0.3  # Vérifiez la dernière version disponible
+  webview_flutter_android: ^3.0.0
+  pdf: ^3.10.4
+  printing: ^5.10.5
+  cloudinary_public: ^0.23.1
+  path_provider: ^2.0.14
+  fl_chart: ^1.0.0
+  permission_handler: ^11.0.1
+  qr_flutter: ^4.0.0 
+  syncfusion_flutter_pdfviewer: ^30.1.39
+  webview_flutter: ^4.4.2
+  flutter_shimmer: ^2.0.0
+  # qr_code_scanner: ^1.0.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  intl: ^0.20.2
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/signature.png
+    - assets/cachet.png
+    - assets/home_background.jpg
+    - assets/logo.png
+    - assets/logoAc.png
+    - assets/login_illustration.jpg
+    - assets/om.png
+    - assets/wave.png
+    - assets/mastercard.jpeg
+    - assets/visa.jpeg
+    - assets/maison_placeholder.png
+    - assets/maire.jpeg
+
